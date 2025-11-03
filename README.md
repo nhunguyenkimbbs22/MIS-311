@@ -1,5 +1,5 @@
 # MIS-311
-1. Data Overview
+**1. Data Overview**
 
 This dataset contains detailed information on students’ academic performance and demographic background. It is designed to explore how factors such as gender, race/ethnicity, and parental education relate to students’ achievement in Math, Reading, and Writing.
 
@@ -19,9 +19,9 @@ The variables included are:
 
 The dataset was compiled from student assessment data and serves as a resource for educational research and statistical analysis. It can be used to perform descriptive analytics, correlation, and regression analysis to identify relationships between background factors and student outcomes.
 
-2. Data Cleaning
+**2. Data Cleaning**
 
-a. Missing values
+**a. Missing values**
 
 The dataset contained a total of 6 missing values including 4 in the Average Score column and 3 in the Parental level of education column. However, since 3 parental missing values were duplicated, only 2 unique missing values needed to be handled.
 - For the missing values in Average Score, by analyzing the existing data, I noticed that Average Score was calculated as Total Score ÷ 3, so I used this formula to fill the missing values:
@@ -35,12 +35,12 @@ The dataset contained a total of 6 missing values including 4 in the Average Sco
 
 <img width="1610" height="388" alt="image" src="https://github.com/user-attachments/assets/471846b5-c05d-4913-a70f-e7989806f7f5" />
 
-b. Duplicate rows
+**b. Duplicate rows**
 
 I found three duplicate rows in the dataset and removed them to keep the data accurate and unbiased. 
 <img width="514" height="490" alt="image" src="https://github.com/user-attachments/assets/b4ce87e6-c6ff-4194-850b-2dcef7c8795f" />
 
-3. Descriptive Statistics
+**3. Descriptive Statistics**
 
 <img width="1090" height="242" alt="image" src="https://github.com/user-attachments/assets/e5e357ee-1a5c-4ee7-9d97-e2757ad4b93e" />
 <img width="1006" height="584" alt="image" src="https://github.com/user-attachments/assets/9c05f746-6290-4e7f-8495-4fe47c057976" />
